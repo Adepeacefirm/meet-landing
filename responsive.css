@@ -1,0 +1,98 @@
+@media (min-width: 481px) {
+  .hero p {
+    width: 55%;
+  }
+
+  .main-images {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .main-content h1 {
+    width: 60%;
+  }
+
+  .main-content p {
+    width: 85%;
+    margin-inline: auto;
+  }
+
+  .footer-content {
+    background-image: linear-gradient(
+        rgba(77, 142, 159, 0.85),
+        rgba(77, 142, 159, 0.85)
+      ),
+      url("./images/image-footer-tab.jpg");
+  }
+
+  .footer-content p {
+    width: 65%;
+  }
+}
+
+@media (min-width: 769px) {
+  .mob-tab-view {
+    display: none;
+  }
+
+  .desktop-view {
+    display: block;
+  }
+
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+
+  .hero p {
+    width: 70%;
+    margin-bottom: 1rem;
+  }
+
+  .hero-btns {
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .btn-hero {
+    margin-inline: 0;
+  }
+  .btn-hero-download {
+    width: 25%;
+  }
+
+  .btn-hero-what {
+    width: 20%;
+  }
+
+  .main-content h1 {
+    width: 33%;
+  }
+
+  .main-content p {
+    width: 50%;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 5rem;
+    gap: 2rem;
+  }
+  .footer-content h1 {
+    padding-top: 0;
+    width: 30%;
+    text-align: start;
+  }
+  .footer-content p {
+    margin-bottom: 0;
+    width: 25%;
+    text-align: left;
+  }
+
+  .btn-footer {
+    width: 15%;
+    margin-inline: 0px 100px;
+
+  }
+}
